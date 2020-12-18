@@ -1,22 +1,28 @@
 {
   "files": {
-    "main.css": "/My-WebDev-Portfolio/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/My-WebDev-Portfolio/static/js/main.4a5229ef.chunk.js",
-    "main.js.map": "/My-WebDev-Portfolio/static/js/main.4a5229ef.chunk.js.map",
-    "runtime-main.js": "/My-WebDev-Portfolio/static/js/runtime-main.1f1b601f.js",
-    "runtime-main.js.map": "/My-WebDev-Portfolio/static/js/runtime-main.1f1b601f.js.map",
-    "static/js/2.964c208f.chunk.js": "/My-WebDev-Portfolio/static/js/2.964c208f.chunk.js",
-    "static/js/2.964c208f.chunk.js.map": "/My-WebDev-Portfolio/static/js/2.964c208f.chunk.js.map",
-    "static/js/3.f72d2e7a.chunk.js": "/My-WebDev-Portfolio/static/js/3.f72d2e7a.chunk.js",
-    "static/js/3.f72d2e7a.chunk.js.map": "/My-WebDev-Portfolio/static/js/3.f72d2e7a.chunk.js.map",
+    "main.css": "/My-WebDev-Portfolio/static/css/main.bf457ff1.chunk.css",
+    "main.js": "/My-WebDev-Portfolio/static/js/main.0ea4b88b.chunk.js",
+    "main.js.map": "/My-WebDev-Portfolio/static/js/main.0ea4b88b.chunk.js.map",
+    "runtime-main.js": "/My-WebDev-Portfolio/static/js/runtime-main.98763cf0.js",
+    "runtime-main.js.map": "/My-WebDev-Portfolio/static/js/runtime-main.98763cf0.js.map",
+    "static/js/2.aa71e4cc.chunk.js": "/My-WebDev-Portfolio/static/js/2.aa71e4cc.chunk.js",
+    "static/js/2.aa71e4cc.chunk.js.map": "/My-WebDev-Portfolio/static/js/2.aa71e4cc.chunk.js.map",
+    "static/js/3.f5ffb015.chunk.js": "/My-WebDev-Portfolio/static/js/3.f5ffb015.chunk.js",
+    "static/js/3.f5ffb015.chunk.js.map": "/My-WebDev-Portfolio/static/js/3.f5ffb015.chunk.js.map",
     "index.html": "/My-WebDev-Portfolio/index.html",
-    "static/css/main.6dea0f05.chunk.css.map": "/My-WebDev-Portfolio/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.964c208f.chunk.js.LICENSE.txt": "/My-WebDev-Portfolio/static/js/2.964c208f.chunk.js.LICENSE.txt"
+    "static/css/main.bf457ff1.chunk.css.map": "/My-WebDev-Portfolio/static/css/main.bf457ff1.chunk.css.map",
+    "static/js/2.aa71e4cc.chunk.js.LICENSE.txt": "/My-WebDev-Portfolio/static/js/2.aa71e4cc.chunk.js.LICENSE.txt",
+    "static/media/CSS3.c65b6eb4.png": "/My-WebDev-Portfolio/static/media/CSS3.c65b6eb4.png",
+    "static/media/HTML5.b757b110.png": "/My-WebDev-Portfolio/static/media/HTML5.b757b110.png",
+    "static/media/Javascript.5648ae0a.png": "/My-WebDev-Portfolio/static/media/Javascript.5648ae0a.png",
+    "static/media/React.73ac128a.png": "/My-WebDev-Portfolio/static/media/React.73ac128a.png",
+    "static/media/git.140fa4d6.png": "/My-WebDev-Portfolio/static/media/git.140fa4d6.png",
+    "static/media/material-ui.5b2d8a0a.png": "/My-WebDev-Portfolio/static/media/material-ui.5b2d8a0a.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.1f1b601f.js",
-    "static/js/2.964c208f.chunk.js",
-    "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.4a5229ef.chunk.js"
+    "static/js/runtime-main.98763cf0.js",
+    "static/js/2.aa71e4cc.chunk.js",
+    "static/css/main.bf457ff1.chunk.css",
+    "static/js/main.0ea4b88b.chunk.js"
   ]
 }
