@@ -1,16 +1,20 @@
-import React, { Component } from "react";
-import Navigation from "../../components/Navigation/Navigation";
-import AboutMe from "../../components/AboutMe/AboutMe";
+import React from "react";
+import Home from "../../components/Home/Home";
+import About from "../../components/About/About";
+import Projects from "../../components/Projects/Projects";
+import Contact from "../../components/Contact/Contact";
+import Footer from "../../components/Footer/Footer";
 
-class Portfolio extends Component {
-  render() {
-    return (
-      <div>
-        <Navigation />
-        <AboutMe />
-      </div>
-    );
-  }
+function Portfolio() {
+  return (
+    <div>
+      <Home />
+      <About />
+      <Projects />
+      <Contact />
+      <Footer />
+    </div>
+  );
 }
 
 export default Portfolio;

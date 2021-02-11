@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,400;1,600;1,700&display=swap");
+
+body {
+  background-color: #f6f6f6;
+}
+hr {
+  border-top: 2px solid #1687a7;
+  margin-bottom: 15px;
+  width: 150px;
+}
+.About {
+  align-items: center;
+  background-color: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px;
+}
+.About h1 {
+  font-family: "Crimson Text", serif;
+  font-weight: bold;
+  font-size: 35px;
+  letter-spacing: 0.3rem;
+  margin-bottom: 0;
+  text-align: center;
+}
+.About h1,
+h3 {
+  color: #161d6f;
+}
+.About h3,
+p {
+  font-family: "Montserrat", sans-serif;
+}
+.About p {
+  color: grey;
+  line-height: 2rem;
+  margin: 0 125px;
+}
+
+.Wrap {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 100px;
+}
+.Wrap img {
+  filter: invert(41%) sepia(20%) saturate(4130%) hue-rotate(161deg)
+    brightness(90%) contrast(83%);
+  width: 75px;
+}
+.Offer {
+  display: flex;
+}
+.Offer div {
+  width: 100%;
+  margin: 50px 25px;
+}
+.Offer p {
+  margin: 0;
+}
+
+@media (min-width: 280px) and (max-width: 950px) {
+  .About {
+    margin: 100px 25px;
+  }
+  .About p {
+    margin: 0;
+  }
+  .Wrap {
+    display: inline;
+    text-align: center;
+  }
+}

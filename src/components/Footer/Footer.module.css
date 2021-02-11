@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,400;1,600;1,700&display=swap");
+
+.Footer {
+  background-color: pink;
+  align-items: center;
+  background-color: #98ded9;
+  color: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 25px;
+}
+.Footer p {
+  font-family: "Montserrat", sans-serif;
+}
+.Footer span {
+  color: #161d6f;
+}
+.Icon img {
+  cursor: pointer;
+  filter: invert(6%) sepia(67%) saturate(5950%) hue-rotate(238deg)
+    brightness(103%) contrast(93%);
+  margin: 15px;
+  width: 40px;
+}
+.Icon img:hover {
+  filter: invert(50%) sepia(45%) saturate(7246%) hue-rotate(167deg)
+    brightness(87%) contrast(83%);
+}

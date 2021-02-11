@@ -1,0 +1,18 @@
+.Dummy {
+  display: flex;
+  justify-content: center;
+}
+.Project {
+  width: 400px;
+  height: 200px;
+  background-color: grey;
+  color: white;
+  margin: 15px;
+}
+.Project span {
+  display: flex;
+  justify-content: center;
+  margin: 88px auto;
+  font-size: 18px;
+  font-weight: bold;
+}
