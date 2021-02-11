@@ -1,28 +1,29 @@
 {
   "files": {
-    "main.css": "/My-WebDev-Portfolio/static/css/main.bf457ff1.chunk.css",
-    "main.js": "/My-WebDev-Portfolio/static/js/main.0ea4b88b.chunk.js",
-    "main.js.map": "/My-WebDev-Portfolio/static/js/main.0ea4b88b.chunk.js.map",
-    "runtime-main.js": "/My-WebDev-Portfolio/static/js/runtime-main.98763cf0.js",
-    "runtime-main.js.map": "/My-WebDev-Portfolio/static/js/runtime-main.98763cf0.js.map",
-    "static/js/2.aa71e4cc.chunk.js": "/My-WebDev-Portfolio/static/js/2.aa71e4cc.chunk.js",
-    "static/js/2.aa71e4cc.chunk.js.map": "/My-WebDev-Portfolio/static/js/2.aa71e4cc.chunk.js.map",
-    "static/js/3.f5ffb015.chunk.js": "/My-WebDev-Portfolio/static/js/3.f5ffb015.chunk.js",
-    "static/js/3.f5ffb015.chunk.js.map": "/My-WebDev-Portfolio/static/js/3.f5ffb015.chunk.js.map",
+    "main.css": "/My-WebDev-Portfolio/static/css/main.7e10ad3b.chunk.css",
+    "main.js": "/My-WebDev-Portfolio/static/js/main.489cfeee.chunk.js",
+    "main.js.map": "/My-WebDev-Portfolio/static/js/main.489cfeee.chunk.js.map",
+    "runtime-main.js": "/My-WebDev-Portfolio/static/js/runtime-main.48457f21.js",
+    "runtime-main.js.map": "/My-WebDev-Portfolio/static/js/runtime-main.48457f21.js.map",
+    "static/js/2.3e51b58b.chunk.js": "/My-WebDev-Portfolio/static/js/2.3e51b58b.chunk.js",
+    "static/js/2.3e51b58b.chunk.js.map": "/My-WebDev-Portfolio/static/js/2.3e51b58b.chunk.js.map",
+    "static/js/3.4fc81526.chunk.js": "/My-WebDev-Portfolio/static/js/3.4fc81526.chunk.js",
+    "static/js/3.4fc81526.chunk.js.map": "/My-WebDev-Portfolio/static/js/3.4fc81526.chunk.js.map",
     "index.html": "/My-WebDev-Portfolio/index.html",
-    "static/css/main.bf457ff1.chunk.css.map": "/My-WebDev-Portfolio/static/css/main.bf457ff1.chunk.css.map",
-    "static/js/2.aa71e4cc.chunk.js.LICENSE.txt": "/My-WebDev-Portfolio/static/js/2.aa71e4cc.chunk.js.LICENSE.txt",
-    "static/media/CSS3.c65b6eb4.png": "/My-WebDev-Portfolio/static/media/CSS3.c65b6eb4.png",
-    "static/media/HTML5.b757b110.png": "/My-WebDev-Portfolio/static/media/HTML5.b757b110.png",
-    "static/media/Javascript.5648ae0a.png": "/My-WebDev-Portfolio/static/media/Javascript.5648ae0a.png",
-    "static/media/React.73ac128a.png": "/My-WebDev-Portfolio/static/media/React.73ac128a.png",
-    "static/media/git.140fa4d6.png": "/My-WebDev-Portfolio/static/media/git.140fa4d6.png",
-    "static/media/material-ui.5b2d8a0a.png": "/My-WebDev-Portfolio/static/media/material-ui.5b2d8a0a.png"
+    "static/css/main.7e10ad3b.chunk.css.map": "/My-WebDev-Portfolio/static/css/main.7e10ad3b.chunk.css.map",
+    "static/js/2.3e51b58b.chunk.js.LICENSE.txt": "/My-WebDev-Portfolio/static/js/2.3e51b58b.chunk.js.LICENSE.txt",
+    "static/media/email.0651a75b.png": "/My-WebDev-Portfolio/static/media/email.0651a75b.png",
+    "static/media/github.f1102180.png": "/My-WebDev-Portfolio/static/media/github.f1102180.png",
+    "static/media/light-bulb.0b7c13cd.svg": "/My-WebDev-Portfolio/static/media/light-bulb.0b7c13cd.svg",
+    "static/media/linkedin.032cf8a6.png": "/My-WebDev-Portfolio/static/media/linkedin.032cf8a6.png",
+    "static/media/phone-laptop.5ea4ade0.svg": "/My-WebDev-Portfolio/static/media/phone-laptop.5ea4ade0.svg",
+    "static/media/rocket.75a3c7dd.svg": "/My-WebDev-Portfolio/static/media/rocket.75a3c7dd.svg",
+    "static/media/speedometer.7a863650.svg": "/My-WebDev-Portfolio/static/media/speedometer.7a863650.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.98763cf0.js",
-    "static/js/2.aa71e4cc.chunk.js",
-    "static/css/main.bf457ff1.chunk.css",
-    "static/js/main.0ea4b88b.chunk.js"
+    "static/js/runtime-main.48457f21.js",
+    "static/js/2.3e51b58b.chunk.js",
+    "static/css/main.7e10ad3b.chunk.css",
+    "static/js/main.489cfeee.chunk.js"
   ]
 }
