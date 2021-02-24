@@ -1,0 +1,15 @@
+.Bar {
+  position: relative;
+  padding: 25px;
+  margin: auto;
+  width: 65vw;
+}
+
+@media (min-width: 280px) and (max-width: 760px) {
+  .Bar {
+    position: relative;
+    padding: 25px;
+    margin: auto;
+    width: 85vw;
+  }
+}

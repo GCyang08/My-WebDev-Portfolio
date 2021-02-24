@@ -11,9 +11,7 @@ function Footer() {
     <div className={classes.Footer}>
       <div className={classes.Icon}>
         <img src={linkedin} alt="linkedin icon" />
-        <img src={email} alt="email icon" />
         <img src={github} alt="github icon" />
-
         <p>
           GAO YANG <span>&copy; 2021</span>
         </p>

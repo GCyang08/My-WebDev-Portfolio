@@ -1,59 +1,63 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
-
 @import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,400;1,600;1,700&display=swap");
 
 .Intro {
   align-items: center;
-  background-color: #98ded9;
-  color: #f6f6f6;
+  background-color: #3fc1c9;
+  color: #f5f5f5;
   display: flex;
   flex-direction: column;
   justify-content: center;
   height: calc(100vh + 53px);
   text-align: center;
 }
+.Text {
+  margin: 0px 25px;
+}
 .Text h2 {
-  font-size: 38px;
+  font-size: 35px;
+  line-height: 3.5rem;
 }
 .Text h2,
 p {
   font-family: "Montserrat", sans-serif;
 }
-
 .Span {
-  color: #161d6f;
+  color: #822659;
   font-family: "Crimson Text", serif;
-  font-size: 50px;
-}
-.Text button {
-  background-color: #98ded9;
-  border: 5px solid #f6f6f6;
-  cursor: pointer;
-}
-.Text button:hover {
-  background-color: #161d6f;
-  transition: all 0.5s;
-}
-.Text button:focus {
-  outline: none;
+  font-size: 60px;
 }
 .Button {
-  display: flex;
-  justify-content: space-evenly;
-  width: 200px;
+  background-color: #3fc1c9;
+  border: 5px solid #f6f6f6;
+  cursor: pointer;
+  width: 225px;
+}
+.Button:hover {
+  background-color: #822659;
+  transition: all 0.5s;
+}
+.Button:focus {
+  outline: none;
 }
 .Button p {
   color: #f6f6f6;
+  font-size: 15px;
 }
-.Button span {
-  animation: bounce 2s ease infinite;
+.Link {
+  display: flex;
+  justify-content: space-evenly;
 }
 .Arrow {
-  width: 25px;
-  height: 25px;
-  margin-top: 8px;
+  width: 20px;
+  height: 20px;
   filter: invert(100%) sepia(8%) saturate(80%) hue-rotate(107deg)
     brightness(115%) contrast(93%);
+  position: relative;
+  top: 15px;
+  left: 3px;
+}
+section:nth-of-type(1) button .Arrow {
+  transition: all 0.3s;
 }
 section:nth-of-type(1) button:hover .Arrow {
   transform: rotate(90deg);

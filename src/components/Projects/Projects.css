@@ -1,0 +1,18 @@
+.Wrapper {
+  background-color: #364f6b;
+  color: #f6f6f6;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+.Wrapper h1 {
+  font-weight: bold;
+  font-size: 35px;
+  letter-spacing: 0.3rem;
+  text-align: center;
+}
+.Projects {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}

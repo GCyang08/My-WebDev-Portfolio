@@ -1,0 +1,21 @@
+.NavbarListItemsDesktop ul {
+  margin: 0;
+  padding: 0;
+}
+.NavbarListItemsDesktop li {
+  cursor: pointer;
+  display: inline-block;
+  margin: 20px;
+}
+.NavbarListItemsMobile {
+  background-color: #822659;
+  color: #f6f6f6;
+}
+.NavbarListItemsMobile li {
+  cursor: pointer;
+  display: flex;
+  margin: 20px;
+}
+.Active {
+  color: #3fc1c9;
+}

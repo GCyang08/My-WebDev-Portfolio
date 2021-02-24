@@ -1,0 +1,53 @@
+.About {
+  background-color: #f6f6f6;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+.About h1 {
+  font-weight: bold;
+  font-size: 35px;
+  letter-spacing: 0.3rem;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.About h1,
+h3 {
+  color: #364f6b;
+}
+.About p {
+  color: #364f6b;
+  line-height: 2rem;
+  padding: 10px;
+}
+.Wrap {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.Wrap img {
+  border: 1px solid;
+  border-radius: 100px;
+  filter: invert(27%) sepia(67%) saturate(308%) hue-rotate(170deg)
+    brightness(93%) contrast(93%);
+  width: 50px;
+  padding: 10px;
+}
+.Offer {
+  display: flex;
+}
+.Offer div {
+  width: 100%;
+  margin: 50px 15px;
+}
+
+@media (min-width: 280px) and (max-width: 950px) {
+  .About p {
+    margin: 0;
+    text-align: center;
+  }
+  .Wrap {
+    display: inline-block;
+  }
+}

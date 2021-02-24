@@ -1,7 +1,8 @@
-import React, { useState } from "react";
-import classes from "./About.module.css";
+import React from "react";
 
-import Graph from "./Graph/Graph";
+import "./About.css";
+
+import Chart from "./Chart/Chart";
 
 import phoneLaptop from "../../assets/phone-laptop.svg";
 import lightBulb from "../../assets/light-bulb.svg";
@@ -10,10 +11,10 @@ import speedoMeter from "../../assets/speedometer.svg";
 
 function About() {
   return (
-    <section className={classes.About}>
+    <section className="About" id="about">
       <div>
         <h1>ABOUT</h1>
-        <hr />
+
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -23,11 +24,9 @@ function About() {
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
           culpa qui officia deserunt mollit anim id est laborum.
         </p>
-        <div>
-          <Graph />
-        </div>
-        <div className={classes.Wrap}>
-          <div className={classes.Offer}>
+        <Chart />
+        <div className="Wrap">
+          <div className="Offer">
             <div>
               <img src={phoneLaptop} alt="phone laptop icon" />
               <h3>Reponsive</h3>
@@ -39,7 +38,7 @@ function About() {
               <p>Fast load times and lag free interaction.</p>
             </div>
           </div>
-          <div className={classes.Offer}>
+          <div className="Offer">
             <div>
               <img src={lightBulb} alt="light bulb icon" />
               <h3>Intuitive</h3>
