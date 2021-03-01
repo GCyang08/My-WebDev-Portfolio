@@ -63,10 +63,9 @@ function NavBar() {
       backgroundColor: "#822659 ",
       borderBottom: "3px solid #364f6b ",
     },
-    drawer: {},
   }));
 
-  const { toolbar, drawer } = useStyles();
+  const { toolbar } = useStyles();
 
   const displayDesktop = () => {
     return (
@@ -99,7 +98,6 @@ function NavBar() {
         </IconButton>
 
         <Drawer
-          className={drawer}
           anchor="top"
           open={drawerOpen}
           onClose={handleDrawerClose}

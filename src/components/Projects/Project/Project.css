@@ -2,11 +2,37 @@
   margin: 5px;
 }
 .Project h3 {
-  margin-bottom: 25px;
+  color: #f6f6f6;
+}
+.ProjectOverLay {
+  display: hidden;
+  background: transparent;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: all 600ms ease-in-out;
+  position: relative;
+  width: 350px;
+  height: 240px;
+  top: -20px;
+  left: -50px;
+  padding: 25px;
+}
+.ProjectOverLay:hover {
+  visibility: visible;
+  opacity: 1;
+  background: #364f6b;
+  transform: scale(1.1);
+  transition: all 300ms ease-in-out;
+}
+
+.ProjectLinks {
+  display: flex;
+  justify-content: center;
 }
 .ProjectLinks a {
-  border: 1px solid #364f6b;
-  color: #364f6b;
+  border: 2px solid #f6f6f6;
+  color: #f6f6f6;
   display: flex;
   font-size: 16px;
   font-weight: 600;
@@ -14,4 +40,11 @@
   margin: 10px;
   padding: 10px;
   text-decoration: none;
+  transition: 600ms ease-in-out;
+  width: 150px;
+}
+.ProjectLinks a:hover {
+  background-color: #822659;
+  color: #f6f6f6;
+  transition: 300ms ease-in-out;
 }

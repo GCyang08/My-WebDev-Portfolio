@@ -1,20 +1,30 @@
 import React from "react";
 
 import linkedin from "../../assets/linkedin.png";
-import email from "../../assets/email.png";
 import github from "../../assets/github.png";
 
-import classes from "./Footer.module.css";
+import "./Footer.css";
 
 function Footer() {
+  const githubLink = {
+    href: "https://github.com/GCyang08",
+    target: "_blank",
+  };
   return (
-    <div className={classes.Footer}>
-      <div className={classes.Icon}>
-        <img src={linkedin} alt="linkedin icon" />
-        <img src={github} alt="github icon" />
-        <p>
-          GAO YANG <span>&copy; 2021</span>
-        </p>
+    <div>
+      <div></div>
+      <div className="Footer">
+        <div className="Icon">
+          <img src={linkedin} alt="linkedin icon" />
+          <a {...githubLink}>
+            <img src={github} alt="github icon" />
+          </a>
+          <p>Email: gcyang08@gmail.com</p>
+          <p>Phone Number: 1 (916)-598-0261</p>
+          <p>
+            GAO YANG <span>&copy; 2021</span>
+          </p>
+        </div>
       </div>
     </div>
   );

@@ -2,10 +2,14 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,400;1,600;1,700&display=swap");
 
+.TopBox {
+  width: 100%;
+  height: 10px;
+}
+
 .Footer {
-  background-color: pink;
   align-items: center;
-  background-color: #98ded9;
+  background-color: #364f6b;
   color: #f6f6f6;
   display: flex;
   flex-direction: column;
@@ -15,14 +19,17 @@
 }
 .Footer p {
   font-family: "Montserrat", sans-serif;
+
+  letter-spacing: 0.1rem;
 }
 .Footer span {
-  color: #161d6f;
+  color: #3fc1c9;
+  font-weight: 600;
 }
 .Icon img {
   cursor: pointer;
-  filter: invert(6%) sepia(67%) saturate(5950%) hue-rotate(238deg)
-    brightness(103%) contrast(93%);
+  filter: invert(81%) sepia(17%) saturate(1701%) hue-rotate(132deg)
+    brightness(85%) contrast(83%);
   margin: 15px;
   width: 40px;
 }

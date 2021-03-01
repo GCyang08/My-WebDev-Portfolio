@@ -6,6 +6,9 @@ import { Card, makeStyles } from "@material-ui/core";
 function Project(props) {
   const useStyles = makeStyles({
     root: {
+      backgroundImage: props.image,
+      backgroundSize: "cover",
+      cursor: "pointer",
       width: "300px",
       height: "200px",
       padding: "15px",
@@ -14,18 +17,27 @@ function Project(props) {
   });
   const classes = useStyles();
 
+  const githubRepo = {
+    href: props.repoGithubUrl,
+    target: "_blank",
+  };
+
+  const projectHompage = {
+    href: props.repoHomePage,
+    target: "_blank",
+  };
+
   return (
     <div className="Project">
       <Card className={classes.root}>
-        <h3>{props.repoName}</h3>
-        <img src={props.repoGithubUrl} />
-        <div className="ProjectLinks">
-          <a target="_blank" href={props.repoGithubUrl}>
-            View Github Repo
-          </a>
-          <a target="_blank" href={props.repoHomePage}>
-            View Homepage
-          </a>
+        <div className="ProjectOverLay">
+          <h3>{props.repoName}</h3>
+          <div className="ProjectLinks">
+            <div>
+              <a {...githubRepo}>View Github Repo</a>
+              <a {...projectHompage}>View Homepage</a>
+            </div>
+          </div>
         </div>
       </Card>
     </div>
