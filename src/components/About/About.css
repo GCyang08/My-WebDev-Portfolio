@@ -2,7 +2,7 @@
   background-color: #f6f6f6;
   display: flex;
   justify-content: center;
-  padding: 50px;
+  padding: 50px 50px 100px;
   text-align: center;
 }
 .About h1 {
@@ -42,16 +42,18 @@ h3 {
   margin: 0px;
 }
 
-@media (min-width: 280px) and (max-width: 1026px) {
-  .About p {
-    margin: 0;
-    text-align: center;
-  }
+@media (min-width: 280px) and (max-width: 760px) {
   .Wrap {
     display: block;
   }
   .Wrap div {
     margin: 25px 5px;
     width: 100%;
+  }
+}
+@media (min-width: 280px) and (max-width: 1026px) {
+  .About p {
+    margin: auto;
+    text-align: center;
   }
 }
