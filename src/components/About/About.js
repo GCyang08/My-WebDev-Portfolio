@@ -2,57 +2,58 @@ import React from "react";
 
 import "./About.css";
 
-import Chart from "./Chart/Chart";
+import Skills from "./Skills/Skills";
 
 import phoneLaptop from "../../assets/phone-laptop.svg";
 import lightBulb from "../../assets/light-bulb.svg";
 import rocket from "../../assets/rocket.svg";
-import speedoMeter from "../../assets/speedometer.svg";
 
 function About() {
+  const aboutGao = {
+    about: [
+      {
+        src: phoneLaptop,
+        alt: "phone-laptop icon",
+        header: "Responsive",
+        pg: "My layouts will work on any device, big or small",
+      },
+      {
+        src: rocket,
+        alt: "light bulb icon",
+        header: "Effective",
+        pg:
+          " Websites don't have to be static, I love making pages come to life.",
+      },
+      {
+        src: lightBulb,
+        alt: "rocket icon",
+        header: "Comprehensible",
+        pg: "Strong preference for easy to use, intuitive UX/UI.",
+      },
+    ],
+  };
   return (
     <section className="About" id="about">
       <div>
         <h1>ABOUT</h1>
-
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          I am a self-taught front end developer. I primarily focus on writing
+          clean, elegant, and efficient code. I am passionate about creating
+          responsive web apps and making them come to life. I’ve built a few
+          projects by myself and I am looking for a role where I can grow and
+          learn.
         </p>
-        <Chart />
+        <Skills />
         <div className="Wrap">
-          <div className="Offer">
-            <div>
-              <img src={phoneLaptop} alt="phone laptop icon" />
-              <h3>Reponsive</h3>
-              <p>My layouts will work on any device, big or small</p>
-            </div>
-            <div>
-              <img src={speedoMeter} alt="light bulb icon" />
-              <h3>Fast</h3>
-              <p>Fast load times and lag free interaction.</p>
-            </div>
-          </div>
-          <div className="Offer">
-            <div>
-              <img src={lightBulb} alt="light bulb icon" />
-              <h3>Intuitive</h3>
-              <p>Strong preference for easy to use, intuitive UX/UI.</p>
-            </div>
-            <div>
-              <img src={rocket} alt="light bulb icon" />
-              <h3>Dynamic</h3>
-              <p>
-                Websites don't have to be static, I love making pages come to
-                life.
-              </p>
-            </div>
-          </div>
+          {aboutGao.about.map((about, i) => {
+            return (
+              <div key={i}>
+                <img src={about.src} alt={about.alt} />
+                <h3>{about.header}</h3>
+                <p>{about.pg}</p>
+              </div>
+            );
+          })}
         </div>
       </div>
     </section>

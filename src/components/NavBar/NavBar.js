@@ -18,13 +18,9 @@ function NavBar() {
   });
 
   const [navLinks] = useState([
-    { id: 1, label: "HOME", href: "home" },
-    {
-      id: 2,
-      label: "ABOUT",
-      href: "about",
-    },
-    { id: 3, label: "PROJECTS", href: "projects" },
+    { label: "HOME", href: "home" },
+    { label: "ABOUT", href: "about" },
+    { label: "PROJECTS", href: "projects" },
   ]);
 
   const { mobileView, drawerOpen } = state;
@@ -41,9 +37,9 @@ function NavBar() {
     window.addEventListener("resize", () => setResponsiveness());
   }, []);
 
-  const navBarLinks = navLinks.map((link) => {
+  const navBarLinks = navLinks.map((link, i) => {
     return (
-      <li key={link.id}>
+      <li key={i}>
         <Link
           to={link.href}
           spy={true}

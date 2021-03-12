@@ -3,6 +3,7 @@
   display: flex;
   justify-content: center;
   padding: 50px;
+  text-align: center;
 }
 .About h1 {
   font-weight: bold;
@@ -19,11 +20,15 @@ h3 {
   color: #364f6b;
   line-height: 2rem;
   padding: 10px;
+  margin: 0 200px;
 }
 .Wrap {
   display: flex;
   justify-content: space-between;
-  text-align: center;
+}
+.Wrap div {
+  margin: 10px;
+  width: 50%;
 }
 .Wrap img {
   border: 1px solid;
@@ -33,20 +38,20 @@ h3 {
   width: 50px;
   padding: 10px;
 }
-.Offer {
-  display: flex;
-}
-.Offer div {
-  width: 100%;
-  margin: 50px 15px;
+.Wrap p {
+  margin: 0px;
 }
 
-@media (min-width: 280px) and (max-width: 950px) {
+@media (min-width: 280px) and (max-width: 1026px) {
   .About p {
     margin: 0;
     text-align: center;
   }
   .Wrap {
-    display: inline-block;
+    display: block;
+  }
+  .Wrap div {
+    margin: 25px 5px;
+    width: 100%;
   }
 }

@@ -1,0 +1,23 @@
+.Skills {
+  margin: 100px;
+}
+.Skills h2 {
+  color: #364f6b;
+}
+.LogoLayout {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.LogoLayout img {
+  width: 75px;
+  height: 75px;
+  margin: 20px;
+}
+
+@media (min-width: 280px) and (max-width: 1026px) {
+  .Skills {
+    margin: 100px auto;
+  }
+}
