@@ -56,8 +56,9 @@ function NavBar() {
 
   const useStyles = makeStyles(() => ({
     toolbar: {
-      backgroundColor: "#822659 ",
+      backgroundColor: "#822659",
       borderBottom: "3px solid #364f6b ",
+      color: "#f6f6f6",
     },
   }));
 

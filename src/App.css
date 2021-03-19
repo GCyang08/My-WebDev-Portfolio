@@ -2,17 +2,15 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,400;1,600;1,700&display=swap");
 
-h1 {
-  font-family: "Crimson Text", serif;
-}
-
+h1,
 h2,
 h3,
-p {
-  font-family: "Montserrat", sans-serif;
-}
+p,
 nav {
   font-family: "Montserrat", sans-serif;
+}
+
+nav {
   font-size: 15px;
 }
 span {

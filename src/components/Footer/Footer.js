@@ -1,6 +1,6 @@
 import React from "react";
 
-import myResume from "../../documents/GaoResume.pdf";
+import myResume from "../../documents/Gao's-Resume.pdf";
 
 import linkedin from "../../assets/linkedin.png";
 import github from "../../assets/github.png";
@@ -44,7 +44,6 @@ function Footer() {
           })}
         </div>
         <p>Email: gcyaj08@gmail.com</p>
-        <p>Phone Number: 1 (916)-598-0261</p>
         <p>
           GAO YANG <span>&copy; 2021</span>
         </p>

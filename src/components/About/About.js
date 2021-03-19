@@ -37,11 +37,10 @@ function About() {
       <div>
         <h1>ABOUT</h1>
         <p>
-          I am a self-taught front end developer. I primarily focus on writing
-          clean, elegant, and efficient code. I am passionate about creating
-          responsive web apps and making them come to life. I’ve built a few
-          projects by myself and I am looking for a role where I can grow and
-          learn.
+          I am a curious, creative and passionate self-taught Javascript
+          developer that enjoys creating beautiful interfaces and user
+          experiences. I am currently looking for a role where I’m allowed to
+          grow and mature my skills as a Front-end/UX engineer.
         </p>
         <Skills />
         <div className="Wrap">

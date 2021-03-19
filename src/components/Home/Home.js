@@ -9,7 +9,7 @@ function Home() {
       <div className="Text">
         <h2>
           Hi, <span className="Span">I'm Gao...</span>
-          <br />a UX/UI Designer and Web Developer with a passion
+          <br />a UX/UI Engineer and Web Developer with a passion
         </h2>
         <button className="Button">
           <Link

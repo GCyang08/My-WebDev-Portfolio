@@ -20,6 +20,7 @@ function Skills() {
       { src: materialUi, alt: "material ui logo" },
     ],
   };
+
   return (
     <div className="Skills">
       <h2>Technical Skills</h2>
