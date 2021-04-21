@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/My-WebDev-Portfolio/static/css/main.8fb9ed5f.chunk.css",
-    "main.js": "/My-WebDev-Portfolio/static/js/main.60205909.chunk.js",
-    "main.js.map": "/My-WebDev-Portfolio/static/js/main.60205909.chunk.js.map",
+    "main.css": "/My-WebDev-Portfolio/static/css/main.3c91c7b1.chunk.css",
+    "main.js": "/My-WebDev-Portfolio/static/js/main.52620b57.chunk.js",
+    "main.js.map": "/My-WebDev-Portfolio/static/js/main.52620b57.chunk.js.map",
     "runtime-main.js": "/My-WebDev-Portfolio/static/js/runtime-main.d5ad2f8e.js",
     "runtime-main.js.map": "/My-WebDev-Portfolio/static/js/runtime-main.d5ad2f8e.js.map",
     "static/js/2.4634c9be.chunk.js": "/My-WebDev-Portfolio/static/js/2.4634c9be.chunk.js",
@@ -10,12 +10,12 @@
     "static/js/3.461d9b33.chunk.js": "/My-WebDev-Portfolio/static/js/3.461d9b33.chunk.js",
     "static/js/3.461d9b33.chunk.js.map": "/My-WebDev-Portfolio/static/js/3.461d9b33.chunk.js.map",
     "index.html": "/My-WebDev-Portfolio/index.html",
-    "static/css/main.8fb9ed5f.chunk.css.map": "/My-WebDev-Portfolio/static/css/main.8fb9ed5f.chunk.css.map",
+    "static/css/main.3c91c7b1.chunk.css.map": "/My-WebDev-Portfolio/static/css/main.3c91c7b1.chunk.css.map",
     "static/js/2.4634c9be.chunk.js.LICENSE.txt": "/My-WebDev-Portfolio/static/js/2.4634c9be.chunk.js.LICENSE.txt",
     "static/media/Clip-Board-Icon.1a3aaeac.jpg": "/My-WebDev-Portfolio/static/media/Clip-Board-Icon.1a3aaeac.jpg",
     "static/media/DashBoard.ba8ad73e.JPG": "/My-WebDev-Portfolio/static/media/DashBoard.ba8ad73e.JPG",
     "static/media/EasyBank-Icon.c0b35e28.JPG": "/My-WebDev-Portfolio/static/media/EasyBank-Icon.c0b35e28.JPG",
-    "static/media/Gao's-Resume.9fc983ae.pdf": "/My-WebDev-Portfolio/static/media/Gao's-Resume.9fc983ae.pdf",
+    "static/media/Gao's__Resume.724f4bbe.PDF": "/My-WebDev-Portfolio/static/media/Gao's__Resume.724f4bbe.PDF",
     "static/media/Ip-Icon.bbacd957.JPG": "/My-WebDev-Portfolio/static/media/Ip-Icon.bbacd957.JPG",
     "static/media/Portfolio.8a0c8abe.JPG": "/My-WebDev-Portfolio/static/media/Portfolio.8a0c8abe.JPG",
     "static/media/React.29aaeeb1.png": "/My-WebDev-Portfolio/static/media/React.29aaeeb1.png",
@@ -33,7 +33,7 @@
   "entrypoints": [
     "static/js/runtime-main.d5ad2f8e.js",
     "static/js/2.4634c9be.chunk.js",
-    "static/css/main.8fb9ed5f.chunk.css",
-    "static/js/main.60205909.chunk.js"
+    "static/css/main.3c91c7b1.chunk.css",
+    "static/js/main.52620b57.chunk.js"
   ]
 }
