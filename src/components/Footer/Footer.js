@@ -1,6 +1,6 @@
 import React from "react";
 
-import myResume from "../../documents/Gao's-Resume.pdf";
+import myResume from "../../documents/Gao's__Resume.PDF";
 
 import linkedin from "../../assets/linkedin.png";
 import github from "../../assets/github.png";

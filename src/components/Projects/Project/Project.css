@@ -5,6 +5,7 @@
 }
 .Project h3 {
   color: #f6f6f6;
+  letter-spacing: 0;
 }
 .ProjectOverLay {
   display: hidden;
