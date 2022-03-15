@@ -1,8 +1,7 @@
-.TopBox {
-  width: 100%;
-  height: 10px;
+.links_layout {
+  display: flex;
 }
-.Footer {
+.footer {
   align-items: center;
   background-color: #364f6b;
   color: #f6f6f6;
@@ -12,27 +11,27 @@
   text-align: center;
   padding: 25px;
 }
-.Footer p {
+.footer p {
   color: #f6f6f6;
   letter-spacing: 0.1rem;
   line-height: 0;
 }
-.Footer span {
+.footer span {
   color: #3fc1c9;
   font-weight: 600;
 }
-.ProfileLinksLayout {
+.footer__link-images {
   display: flex;
   align-items: center;
 }
-.ProfileLinks {
+.footer__link-images  {
   background-color: #3fc1c9;
   border-radius: 2px;
   cursor: pointer;
   margin: 20px 35px;
   padding: 10px;
 }
-.ImageLinks {
+.image-links {
   width: 35px;
   height: 35px;
   filter: invert(29%) sepia(14%) saturate(1555%) hue-rotate(171deg)

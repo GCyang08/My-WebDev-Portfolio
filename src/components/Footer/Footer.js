@@ -1,12 +1,12 @@
 import React from "react";
 
-import myResume from "../../documents/Gao's__Resume.PDF";
+import myResume from "../../documents/gcyaj_resume.pdf";
 
 import linkedin from "../../assets/linkedin.png";
 import github from "../../assets/github.png";
 import resume from "../../assets/resume.png";
 
-import "./Footer.css";
+import  classes from "./Footer.module.css";
 
 function Footer() {
   const linkedinLink = {
@@ -31,13 +31,13 @@ function Footer() {
   };
   return (
     <footer>
-      <div className="Footer">
-        <div className="ProfileLinksLayout">
+      <div className={classes.footer}>
+        <div className={classes.links_layout}>
           {gaosFiles.files.map((links, i) => {
             return (
-              <section key={i} className="ProfileLinks">
+              <section key={i} className={classes['footer__link-images']}>
                 <a {...links.link}>
-                  <img className="ImageLinks" src={links.src} alt={links.alt} />
+                  <img className={classes['image-links']} src={links.src} alt={links.alt} />
                 </a>
               </section>
             );
